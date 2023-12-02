@@ -1,0 +1,2 @@
+Name of the application using the most memory in name space udacity: hello-world-7957b9db4f-xnq6x
+Memory (bytes) used: 20Mi

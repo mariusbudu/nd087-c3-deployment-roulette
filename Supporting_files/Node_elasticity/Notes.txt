@@ -1,0 +1,2 @@
+ Here the resolution was to deploy the cluster autoscaler which trigerred the node addition due to insuficient cpu.
+Also the proper service account was created.

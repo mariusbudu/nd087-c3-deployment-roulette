@@ -1,0 +1,1 @@
+Here to only leave the green app available, i used terraform destroy --target aws_route53_record.blue, to leave in the dns record blue-green.udacityproject only the green load balancer and to not delete from the code the kubernetes_service.blue resource and not to delete the blue deployment.

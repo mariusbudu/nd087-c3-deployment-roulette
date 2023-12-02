@@ -1,0 +1,42 @@
+budum@E1131928 ~/Documents/udacity/nd087-c3-deployment-roulette/starter/apps/canary (master)$ kubectl run debug --rm -i --tty --image nicolaka/netshoot -n udacity -- /bin/bash 
+If you don't see a command prompt, try pressing enter.
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.166.193
+<html>
+<h1>This is version 1</h1>
+</html>
